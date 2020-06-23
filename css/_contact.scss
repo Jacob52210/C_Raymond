@@ -17,7 +17,7 @@
 	h2 {
 		font-size: 3rem;
 		font-family: 'Metal Mania', cursive;
-		text-shadow: 8px 2px 8px black;
+		text-shadow: 8px 2px 8px $text-shadow;
 		margin-bottom: 2rem;
 	}
 
@@ -25,7 +25,7 @@
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-gap: 2rem;
-		font-size: 1.5rem;
+		font-size: 1rem;
 	}
 
 	.social-icons {
