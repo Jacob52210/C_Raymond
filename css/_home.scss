@@ -18,9 +18,11 @@
 
 	.sub-title {
 		font-size: 3rem;
+		font-weight: 900;
+		font-family: 'Patua One', cursive;
 		color: black;
 		-webkit-text-fill-color: $text-shadow;
-		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-width: 2px;
 	}
 
 	&_name {

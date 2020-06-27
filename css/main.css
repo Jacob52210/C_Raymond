@@ -31,9 +31,11 @@ a {
 
 .home .sub-title {
   font-size: 3rem;
+  font-weight: 900;
+  font-family: 'Patua One', cursive;
   color: black;
   -webkit-text-fill-color: #630202;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
 }
 
 .home_name {
@@ -174,7 +176,7 @@ a {
 .nav .menu-nav_link {
   display: inline-block;
   font-size: 2rem;
-  font-family: 'Metal Mania', cursive;
+  font-family: 'Playfair Display', serif;
   text-shadow: 6px 2px 6px #630202;
   text-transform: uppercase;
   padding: 2rem 0;
@@ -472,7 +474,7 @@ a {
 
 .about_bio .text-secondary {
   font-size: 3rem;
-  font-family: 'Metal Mania', cursive;
+  font-family: 'Playfair Display', serif;
   text-shadow: 6px 2px 6px #630202;
   padding: 2rem;
 }
@@ -562,7 +564,7 @@ a {
 
 .contact h2 {
   font-size: 3rem;
-  font-family: 'Metal Mania', cursive;
+  font-family: 'Playfair Display', serif;
   text-shadow: 8px 2px 8px #630202;
   margin-bottom: 2rem;
 }
