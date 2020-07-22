@@ -2,7 +2,7 @@
 *By: Jacob Flora*
 ## Description
 *This is a website for a real heating and cooling company.*
-#### Hosted [HERE]( https://jacob52210.github.io/Portfolio/ "My Portfolio").
+#### Hosted [HERE]( https://jacob52210.github.io/C_Raymond/ "C. Raymond Heating and Cooling").
 ___
 ## User Stories
 1. *As a restaurant owner, I want to find a recommended local company so that I can have my equipment serviced as soon as possible.*
