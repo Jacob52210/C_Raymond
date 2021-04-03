@@ -1,12 +1,12 @@
-# Portfolio
+# C. Raymond Heating and Cooling
 *By: Jacob Flora*
 ## Description
-*This is my professional portfolio listing my skills, work history, goals, and a brief biography.*
-#### Hosted [HERE]( https://jacob52210.github.io/Portfolio/ "My Portfolio").
+*This is a website for a real heating and cooling company.*
+#### Hosted [HERE]( https://jacob52210.github.io/C_Raymond/ "C. Raymond Heating and Cooling").
 ___
 ## User Stories
-1. *As a Project Manager, I want to see an organized and user friendly portfolio so that I can get an idea of who I may hire.*
-2. *As a business owner, I want to see all the skills he can offer so that I can have a business website.*
+1. *As a restaurant owner, I want to find a recommended local company so that I can have my equipment serviced as soon as possible.*
+2. *As a home owner, I want to see this companies skills so that I can determine if they are able to fix my furnace or air conditioner.*
 ___
 ## Technologies Used
 * HTML
@@ -15,7 +15,7 @@ ___
 * JavaScript
 ___
 ## Future Improvements
-* I would like to keep adding to my projects page.
-* I will add more skills as I learn them.
-* I will add more jobs that pertain to this industry to the as I get hired.
-* I'm going to add a LinkedIn account once I've made one.
+* I would like create a chat window.
+* I will add a form so that customers can contact the owner directly.
+* I will more pictures to the gallery as I receive them.
+
