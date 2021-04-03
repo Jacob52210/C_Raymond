@@ -41,8 +41,8 @@ a {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  color: black;
-  text-shadow: 1px 1px 20px red;
+  color: white;
+  text-shadow: 2px 2px 3px black;
   font-size: 1.8rem;
   font-weight: bolder;
   width: -webkit-fit-content;
@@ -199,15 +199,14 @@ a {
 }
 
 .nav .menu-nav_item.active > a {
-  color: red;
-  text-shadow: 8px 2px 8px red;
+  text-shadow: 8px 2px 8px white;
 }
 
 .nav .menu-nav_link {
   display: inline-block;
   font-size: 2rem;
   font-family: 'Playfair Display', serif;
-  text-shadow: 6px 2px 6px #630202;
+  text-shadow: 6px 2px 6px black;
   text-transform: uppercase;
   padding: 2rem 0;
   font-weight: 300;
@@ -216,7 +215,7 @@ a {
 }
 
 .nav .menu-nav_link:hover {
-  color: red;
+  text-shadow: 8px 2px 8px white;
 }
 
 .menu-nav_item:nth-child(1) {

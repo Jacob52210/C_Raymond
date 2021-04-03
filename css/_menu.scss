@@ -94,8 +94,7 @@
 			}
 
 			&.active > a {
-				color: red;
-				text-shadow: 8px 2px 8px red;
+				text-shadow: 8px 2px 8px white;
 			}
 		}
 
@@ -103,14 +102,14 @@
 			display: inline-block;
 			font-size: 2rem;
 			font-family: 'Playfair Display', serif;
-			text-shadow: 6px 2px 6px $text-shadow;
+			text-shadow: 6px 2px 6px black;
 			text-transform: uppercase;
 			padding: 2rem 0;
 			font-weight: 300;
 			@include transition-ease;
 
 			&:hover {
-				color: $secondary-color;
+				text-shadow: 8px 2px 8px white;
 			}
 		}
 	}
