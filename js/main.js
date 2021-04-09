@@ -1,30 +1,28 @@
-const menuBtn = document.querySelector('.menu-btn');
-const hamburger = document.querySelector('.menu-btn_burger');
-const nav = document.querySelector('.nav');
-const menuNav = document.querySelector('.menu-nav');
-const navItems = document.querySelectorAll('.menu-nav_item');
+var slideInterval = 3500;
 
-let showMenu = false;
-
-menuBtn.addEventListener('click', toggleMenu);
-
-function toggleMenu() {
-    
-    if(!showMenu) {
-        hamburger.classList.add('open');
-        nav.classList.add('open');
-        menuNav.classList.add('open');
-        navItems.forEach(item => item.classList.add('open'));
-
-        showMenu = true;
-    }
-
-    else {
-        hamburger.classList.remove('open');
-        nav.classList.remove('open');
-        menuNav.classList.remove('open');
-        navItems.forEach(item => item.classList.remove('open'));
-
-        showMenu = false;
-    }
+function getFigures() {
+    return document.getElementById('carousel').getElementsByTagName('figure');
 }
+
+function moveForward() {
+    var pointer;
+    var figures = getFigures();
+    for (var i = 0; i < figures.length; i++) {
+        if (figures[i].className == 'visible') {
+            figures[i].className = '';
+            pointer = i;        
+        }
+    }
+    pointer = pointer + 1;
+    if (pointer == figures.length) {
+        pointer = 0;
+    }
+    figures[pointer].className = 'visible';
+    setTimeout(moveForward, slideInterval);
+}
+
+function startPlayback() {
+    setTimeout(moveForward, slideInterval);
+}
+
+startPlayback();
