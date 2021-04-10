@@ -1,6 +1,5 @@
 //            Links
-@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Rouge+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
 
 //           Variables
 $primary-color: gray;
@@ -34,15 +33,15 @@ body {
 
 	//            Header
 	.header {
-		height: 100vw;
-		max-height: 600px;
+		height: 70vw;
+		max-height: 300px;
 		overflow: hidden;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
 
-		h1 {
+		.header-text {
 			position: absolute;
 			left: 50%;
 			transform: translateX(-50%);
@@ -50,18 +49,31 @@ body {
 			height: inherit;
 			max-height: 200px;
 			display: flex;
+			flex-direction: column;
 			align-items: center;
 			justify-content: center;
 			z-index: 1;
-			color: $primary-text;
 			margin: 0px;
-			padding: 1rem;
+			padding: 0px;
+		}
+
+		h1 {
+			font-size: 3rem;
+			font-weight: bolder;
+			color: black;
+			text-shadow: 5px 2px 5px rgb(255, 0, 0);
+			font-family: 'Arbutus Slab', serif;
+		}
+
+		h3 {
+			color: red;
+			font-weight: bolder;
 		}
 
 		//   Video Background Header
 		.video-container {
-			width: auto;
-			height: 100%;
+			width: 200vw;
+			height: auto;
 		}
 	}
 
@@ -138,7 +150,7 @@ body {
 			position: relative;
 			text-align: center;
 			padding: 2rem;
-			margin: 2rem;
+			//margin: 2rem;
 			width: 90vw;
 			max-width: 500px;
 			background-color: darkred;
@@ -149,7 +161,7 @@ body {
 				font-weight: bold;
 
 				.FB-link {
-					color: white;
+					color: rgb(255, 159, 159);
 				}
 			}
 

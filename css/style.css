@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Rouge+Script&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -22,8 +21,8 @@ body a:hover {
 }
 
 body .header {
-  height: 100vw;
-  max-height: 600px;
+  height: 70vw;
+  max-height: 300px;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,7 +36,7 @@ body .header {
   text-align: center;
 }
 
-body .header h1 {
+body .header .header-text {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -48,6 +47,10 @@ body .header h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -55,14 +58,26 @@ body .header h1 {
       -ms-flex-pack: center;
           justify-content: center;
   z-index: 1;
-  color: white;
   margin: 0px;
-  padding: 1rem;
+  padding: 0px;
+}
+
+body .header h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: black;
+  text-shadow: 5px 2px 5px red;
+  font-family: 'Arbutus Slab', serif;
+}
+
+body .header h3 {
+  color: red;
+  font-weight: bolder;
 }
 
 body .header .video-container {
-  width: auto;
-  height: 100%;
+  width: 200vw;
+  height: auto;
 }
 
 body .navbar {
@@ -164,7 +179,6 @@ body .page-content-container .content-container {
   position: relative;
   text-align: center;
   padding: 2rem;
-  margin: 2rem;
   width: 90vw;
   max-width: 500px;
   background-color: darkred;
@@ -177,7 +191,7 @@ body .page-content-container .content-container p {
 }
 
 body .page-content-container .content-container p .FB-link {
-  color: white;
+  color: #ff9f9f;
 }
 
 body .page-content-container .content-container h3 {
