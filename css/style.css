@@ -72,6 +72,7 @@ body .header h1 {
 
 body .header h3 {
   color: red;
+  text-shadow: 5px 2px 5px black;
   font-weight: bolder;
 }
 
@@ -81,7 +82,7 @@ body .header .video-container {
 }
 
 body .navbar {
-  background-color: gray;
+  background-color: #5f5f5f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,8 +92,8 @@ body .navbar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 0px 10px 15px white;
-          box-shadow: 0px 10px 15px white;
+  -webkit-box-shadow: 0px 10px 15px black;
+          box-shadow: 0px 10px 15px black;
 }
 
 body .navbar-nav {
@@ -142,20 +143,8 @@ body .page-content-container {
 }
 
 body .page-content-container .content-header-container {
+  text-align: center;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-top: 2rem;
 }
 
@@ -188,10 +177,15 @@ body .page-content-container .content-container {
 body .page-content-container .content-container p {
   font-size: 1rem;
   font-weight: bold;
+  color: white;
 }
 
 body .page-content-container .content-container p .FB-link {
-  color: #ff9f9f;
+  color: gray;
+}
+
+body .page-content-container .content-container p .FB-link:hover {
+  color: red;
 }
 
 body .page-content-container .content-container h3 {
@@ -318,11 +312,9 @@ body .footer-container p {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    width: 60vw;
-    max-width: 400px;
   }
   body .page-content-container .content-header-container h1 {
-    font-size: 7rem;
+    font-size: 2rem;
   }
 }
 
