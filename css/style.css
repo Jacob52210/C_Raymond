@@ -107,6 +107,10 @@ body .navbar-nav {
           align-items: center;
 }
 
+body .navbar-nav .nav-item {
+  margin-left: 1rem;
+}
+
 body .navbar-nav .nav-item .nav-link {
   color: darkred;
   margin-left: 1rem;
@@ -174,22 +178,31 @@ body .page-content-container .content-container {
   border-radius: 10px;
 }
 
-body .page-content-container .content-container p {
+body .page-content-container .content-container hr {
+  border-bottom: 2px solid white;
+}
+
+body .page-content-container .content-container article h1 {
+  font-size: 2rem;
+  font-family: 'Arbutus Slab', serif;
+}
+
+body .page-content-container .content-container article p {
   font-size: 1rem;
   font-weight: bold;
   color: white;
 }
 
-body .page-content-container .content-container p .FB-link {
+body .page-content-container .content-container article p .FB-link {
   color: gray;
 }
 
-body .page-content-container .content-container p .FB-link:hover {
+body .page-content-container .content-container article p .FB-link:hover {
   color: red;
 }
 
-body .page-content-container .content-container h3 {
-  text-align: center;
+body .page-content-container .content-container article ul {
+  text-align: left;
   color: white;
 }
 

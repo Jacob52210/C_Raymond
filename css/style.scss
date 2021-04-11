@@ -93,6 +93,7 @@ body {
 			align-items: center;
 
 			.nav-item {
+				margin-left: 1rem;
 				.nav-link {
 					color: $secondary-color;
 					margin-left: 1rem;
@@ -148,29 +149,42 @@ body {
 			position: relative;
 			text-align: center;
 			padding: 2rem;
-			//margin: 2rem;
 			width: 90vw;
 			max-width: 500px;
 			background-color: darkred;
 			border-radius: 10px;
 
-			p {
-				font-size: 1rem;
-				font-weight: bold;
-				color: white;
+			hr {
+				border-bottom: 2px solid white;
+			}
 
-				.FB-link {
-					color: gray;
+			article {
+				h1 {
+					font-size: 2rem;
+					font-family: 'Arbutus Slab', serif;
+				}
 
-					&:hover {
-						color: red;
+				p {
+					font-size: 1rem;
+					font-weight: bold;
+					color: white;
+
+					.FB-link {
+						color: gray;
+
+						&:hover {
+							color: red;
+						}
 					}
+				}
+
+				ul {
+					text-align: left;
+					color: white;
 				}
 			}
 
-			h3 {
-				text-align: center;
-				color: $primary-text;
+			article {
 			}
 		}
 
