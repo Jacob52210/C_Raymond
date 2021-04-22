@@ -187,6 +187,11 @@ body .page-content-container .content-container article h1 {
   font-family: 'Arbutus Slab', serif;
 }
 
+body .page-content-container .content-container article h4 {
+  font-size: 1rem;
+  color: white;
+}
+
 body .page-content-container .content-container article p {
   font-size: 1rem;
   font-weight: bold;
